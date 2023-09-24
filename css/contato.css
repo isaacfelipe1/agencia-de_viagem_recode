@@ -1,0 +1,16 @@
+form{
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color:  #f2f2f2;;
+    
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 50vw;
+    padding: 10px;
+}

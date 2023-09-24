@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/globe-asia-australia.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/whatsapp.css">
+    <link rel="stylesheet" href="./css/btn.css">
+    <link rel="stylesheet" href="./css/valor.css">
+    
+    <title>Site</title>
+</head>
+<body>
+  <!--Navegação-->
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand cor" href="index.html" >
+                <img src="img/globe-asia-australia.svg"  alt="Logo-agencia" width="30" height="24" class="d-inline-block align-text-top"> 
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navegacao" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" >
+                <a class="nav-link active text-black" aria-current="page" href="index.html" >Home</a>
+              </li>
+                <a class="nav-link nav-item text-black" href="login.html" id="sessao">Iniciar Sessão</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#sobre">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#promocoes">Promoção</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <section class="container-slide">
+        <div id="carouselExampleCaptions" class="carousel slide">
+       <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+       </div>
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <img src="https://www.azulviagens.com.br/images/upload/2023/Banners%20AZV/Pontos/banner-super-ofertas-reais-pontos.png" class="d-block w-100" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <h5>Super Oferta</h5>
+             <p>vem viajar com Segurança e conforto para você e toda sua familia.</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <img src="https://www.azulviagens.com.br/images/upload/2023/Banners%20AZV/Reais/AZV-banner-luck-fernando-de-noronha-reais.png" class="d-block w-100" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <h5>Vista 02</h5>
+             <p>Sorria para vida e a vida irá sorrir para você.</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <img src="https://www.azulviagens.com.br/images/upload/2023/Banners%20AZV/Reais/AZV-banner-carmel-reais-v1.png" class="d-block w-100" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <h5>Vista 03</h5>
+             <p>O maior prazer da vida é ter aventura.</p>
+           </div>
+         </div>
+       </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+       </button>
+     </div>
+    </section><br>
+    <section class="about " id="sobre">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about_content">
+              <h5 class="about_title text-start">Sobre nós</h5>
+              <h2 class="heading_about text-start">Bem-vindo<br>AG Viagem</h2>
+              <p class="para_about">A Agência online nasceu da paixão por viajar e explorar novos horizontes. Fundada em 2005 por um grupo de amigos amantes da aventura, nossa agência rapidamente cresceu para se tornar uma das principais referências no setor de turismo. Nossa jornada tem sido marcada por um compromisso inabalável.</p>
+              <h4 class="heading_sm text-body-tertiary">CEO: <span>Isaac Felipe</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><br>
+      <div class="container-fluid" id="promocoes" style="text-align: center; align-items: center;">
+        <h3>Promoções</h3>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <img src="img/apartamento.jpg" alt="" class="img-fluid" >
+              <div class="card-body">
+                <h5 class="card-title">Lago da lapa</h5>
+                <p class="card-text">🚶Vista para o mar, com hoteis inscrivel, lindos roteiros e turismos, com wifi de ponta e ótimo local para está acomapanhado.</p>
+                <span class="valor">R$ 120,00</span>
+                <a href="https://api.Whatsapp.com/send?phone=55" target="_blank" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <img src="img/hotel02.jpg" alt="" class="img-fluid"  width="100%" height="20px">
+              <div class="card-body">
+                <h5 class="card-title">Hotel Marapá</h5>
+                <p class="card-text">🚶Vista maravilhosa do Hotel Marapá, conta com diversos locais para diversão e aventuras, conheça o Hotel Marapá e suas especifidades, onde só marapá tem.</p>
+                <span class="valor">R$ 799,50</span>
+                <a href="https://api.Whatsapp.com/send?phone=55" target="_blank" class="btn btn-dark">Comprar</a>
+              </div>
+            </div><br>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <img src="img/indoors-4234071_640.jpg" alt="" class="img-thumbnail">
+              <div class="card-body">
+                <h5 class="card-title">Serpa durma</h5>
+                <p class="card-text">🚶A serpa durma é um bom local para quem busca paz e tranquilidade, conta com maior extensão de área para explorar, venha conhecer com a gente o maior e melhor hotel da cidade.</p>
+                <span class="valor">R$ 3.350,00</span>
+                <a href="https://api.Whatsapp.com/send?phone=55" target="_blank" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div><br>
+          <div class="col-sm-6">
+            <div class="card">
+              <img src="https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Logo Azul</h5>
+                <p class="card-text">🚶Lago azul é um local de aventuras e para que  está em busca de tranquilidade a aventuras, reuni os amigos e a familia e venha curtir o Lago azul.</p>
+                <span class="valor">R$ 2.500,00</span>
+                <a href="https://api.Whatsapp.com/send?phone=55" target="_blank" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div><br>
+        </div>
+
+      </div><br>
+      <hr>
+      <div class="container">
+        <img src="https://www.azulviagens.com.br/images/upload/2023/Banners%20AZV/Reais/AZV-banner-carmel-reais-v1.png" class="img-fluid" alt="...">
+      </div>
+      <div class="container" style="text-align: center; align-items: center;">
+        <a href="https://api.Whatsapp.com/send?phone=55" target="_blank" class="btn btn-dark">Comprar</a>
+      </div><br>
+      <a  class="btn1" href="https://api.Whatsapp.com/send?phone=55" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1998/1998614.png" 
+        alt="Whatsapp" width="70px" height="70px" title="Whatsapp"></a>
+      <footer>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2023 Agência online, Inc. Direitos Reservados.</p>
+        </div>
+        Desenvolvido por: Isaac felipe
+        <p>2023-2023</p>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

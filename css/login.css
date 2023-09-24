@@ -1,0 +1,44 @@
+html,body{
+    height: 100%;
+    background-color:  #f2f2f2;
+ 
+}
+.form-conteiner{
+    max-width: 300px;
+    padding: 1rem;
+}
+.vagas-abertas {
+    padding-top: 4rem;
+  }
+  .vagas-abertas span.area-principal {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: var(--title-color);
+  }
+  
+  .vaga {
+    border: 1px solid  #f2f2f2;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: var(--title-color);
+  }
+  
+  .vaga span.titulo-vaga {
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .vaga .informacoes {
+    margin-top: 1rem;
+    font-size: 90%;
+    color: var(--text-color);
+    display: flex;
+    gap: 2rem;
+  }
