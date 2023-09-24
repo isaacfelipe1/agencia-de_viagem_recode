@@ -14,3 +14,8 @@ input{
     width: 50vw;
     padding: 10px;
 }
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
