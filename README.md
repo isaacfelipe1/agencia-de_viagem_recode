@@ -10,3 +10,7 @@ link: https://agencia-de-viagem-recode-mpel.vercel.app/
 - Página de Login:
 
 <img src="img/login.jpeg" >
+
+- Página de Promoções:
+
+<img src="img/promocoes.jpeg" >
