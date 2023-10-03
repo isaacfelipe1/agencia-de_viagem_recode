@@ -5,4 +5,4 @@ criado com HTML5, CSS3 e Bootstrap
 - ⚡ explore o que eu construir durante o aprendizado com as aulas do Professor Caique
 link: https://agencia-de-viagem-recode-mpel.vercel.app/
 
-<img src="img/inicial.png>
+<img src="img/inicial.jpg>
