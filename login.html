@@ -7,10 +7,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/nav.css">
     <title>Login</title>
 </head>
-<body class="d-flex align-items-center py-4 bg-body-tertiary">
-    
+<body >
+    <!--Navegação-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand cor" href="index.html" >
+                <img src="img/globe-asia-australia.svg"  alt="Logo-agencia" width="30" height="24" class="d-inline-block align-text-top"> 
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navegacao" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" >
+                <a class="nav-link active text-black" aria-current="page" href="index.html" >Home</a>
+              </li>
+                <a class="nav-link nav-item text-black" href="login.html" id="sessao">Iniciar Sessão</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="/#sobre">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="/#promocoes">Promoção</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="cadastro.html">Cadastrar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr>
     <main class="w-100 m-auto form-conteiner z-2">
         <form>
             <img src="img/globe-asia-australia.svg" alt="" class="mb-4" height="57" width="72">
@@ -24,7 +57,7 @@
                 <label for="floatinInput">Senha</label>
             </div>
             <button class="btn btn-primary w-100 py-2">Entrar</button><br><br>
-            <a href="index.html" class="btn btn-primary w-100 py-2">Voltar</a>
+            
            
         </form>
         <p class="text-body-secondary mt-5 mb-3">₢ 2023-2023</p>
